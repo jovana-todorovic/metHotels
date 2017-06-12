@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #333633;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.round {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.pool {
+    display: block;
+    height: 200px;
+    width: 300px;
+}
+
+h2 {
+    color: #333633;
+    font-weight: 300;
+    font-size: 3rem;
+    padding-top: 4rem;
+    margin: 10px;
+    margin-bottom: 30px;
+}

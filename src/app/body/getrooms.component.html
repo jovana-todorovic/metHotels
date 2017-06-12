@@ -1,0 +1,11 @@
+<div class="col-lg-12">
+    <br/>Sobe<br/> <br/>
+    <div *ngFor="let room of data">
+        Ime sobe: {{room.roomname}}
+        <br/> Beds: {{room.beds}}
+        <br/>
+        <span *ngIf="room.tv == '1'">TV: Ima</span>
+        <span *ngIf="room.tv != '1'">TV: Nema</span>
+        <br/><br/>
+    </div>
+</div>
