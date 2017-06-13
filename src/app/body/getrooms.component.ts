@@ -1,4 +1,4 @@
-import { Component, Directive, Output, EventEmitter } from '@angular/core';
+import { Component, Directive } from '@angular/core';
 import { Http, Response, Headers } from '@angular/http';
 import { Router } from '@angular/router';
 import 'rxjs/Rx';
