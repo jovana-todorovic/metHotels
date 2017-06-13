@@ -9,8 +9,14 @@ import 'rxjs/Rx';
 })
 export class GetroomsComponent {
   private data: Object[];
+  private auth: any;
+  private isAuth: boolean;
 
-  constructor(private http: Http, private router: Router) { 
+  constructor(private http: Http, private router: Router) {
+    this.getRooms();
+  }
+
+  getRooms() {
     var headers = new Headers();
     headers.append('Content-Type', 'application/x-www-form-urlencoded');
     headers.append('token', localStorage.getItem('token'));
