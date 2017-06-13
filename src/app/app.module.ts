@@ -15,6 +15,8 @@ import { AddroomComponent } from './body/addroom.component';
 import { LoginComponent } from './login/login.component';
 import { GetroomsComponent } from './body/getrooms.component';
 import { FooterComponent } from './footer/footer.component';
+import { DeleteroomComponent } from './body/deleteroom.component';
+import { UpdateroomComponent } from './body/updateroom.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { FooterComponent } from './footer/footer.component';
     AddroomComponent,
     LoginComponent,
     GetroomsComponent,
-    FooterComponent
+    FooterComponent,
+    DeleteroomComponent,
+    UpdateroomComponent
   ],
   imports: [
     BrowserModule,

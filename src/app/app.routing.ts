@@ -7,6 +7,7 @@ import { RegisterComponent } from './register/register.component';
 import { AddroomComponent } from './body/addroom.component';
 import { LoginComponent } from './login/login.component';
 import { GetroomsComponent } from './body/getrooms.component';
+import { UpdateroomComponent } from './body/updateroom.component';
 
 const APP_ROUTES: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -16,7 +17,8 @@ const APP_ROUTES: Routes = [
     { path: 'register', component: RegisterComponent},
     { path: 'addroom', component: AddroomComponent},
     { path: 'login', component: LoginComponent},
-    { path: 'getrooms', component: GetroomsComponent}
+    { path: 'getrooms', component: GetroomsComponent},
+    { path: 'updateroom/:id', component: UpdateroomComponent}
 ];
 
 export const routing = RouterModule.forRoot(APP_ROUTES);
