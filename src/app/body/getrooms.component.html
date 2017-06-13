@@ -1,5 +1,5 @@
 <div class="col-lg-12">
-    <br/>Sobe<br/> <br/>
+    <h3>Sobe</h3> <br/>
     <div *ngFor="let room of data">
         Ime sobe: {{room.roomname}}
         <br/> Beds: {{room.beds}}
@@ -7,5 +7,9 @@
         <span *ngIf="room.tv == '1'">TV: Ima</span>
         <span *ngIf="room.tv != '1'">TV: Nema</span>
         <br/><br/>
+        <button class="btn btn-default">Izbrisi</button>
+        <button class="btn btn-default">Promeni</button>
+        <br/><br/>
+        <br/>
     </div>
 </div>

@@ -14,7 +14,6 @@
                 <li><a [routerLink]="['/addroom']">Add Room</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-custom navbar-right">
-                <li id="user"></li>
                 <li *ngIf="isAuth==true"><a (click)="onLogout()">Log out</a></li>
                 <li><a [routerLink]="['/login']">Log in</a></li>
                 <li><a [routerLink]="['/register']">Register</a></li>
